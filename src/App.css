@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #F55A5A;
+    color: #fff;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.locations {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 100px 40px;
+}
+
+.location-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.location-place {
+    text-transform: uppercase;
+}
+
+.location-map-link {
+    color: #918E9B;
+    text-decoration: underline;
+}
+
+.location-title {
+    font-size: 2.5em;
+}
+
+.location-date {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #F55A5A;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
